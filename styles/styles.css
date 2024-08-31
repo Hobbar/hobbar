@@ -9,11 +9,10 @@
 #navbar::before{
     content: "";
     background-color: rgb(167, 209, 118);
-    position:absolute;
+    position: absolute;
     height: 100%; width: 100%;
     top: 0; left: 0;
     z-index: -1; 
-    overflow: hidden;
     opacity: .59;
 }
 
@@ -23,7 +22,7 @@
     position: relative;
     padding: 1%;
     /* justify-content: center; */
-    /* overflow: scroll; */
+    overflow: auto;
     /* width: 100%;
     height: 100%; */
     /* background-color: rgba(58, 58, 58, 0.788); */
@@ -67,8 +66,7 @@ ul li a:hover{
     content: "";
     position:absolute;
     background: url(img/bg.jpg) no-repeat fixed center/cover; 
-    top: 0;
-    left: 0;
+    
     height: 100%; 
     width: 100%;
     z-index: -1;
@@ -82,7 +80,7 @@ ul li a:hover{
     padding: 0px 10%;
     justify-content: center;
     align-items: center;
-    /* overflow: scroll; */
+    overflow: hidden;
 }
 #home h1{
     font-size: 3.5rem;
@@ -128,7 +126,7 @@ ul li a:hover{
     position: relative;
     display: flex;
     flex-direction: column;
-    /* overflow: scroll; */
+    overflow: hidden;
 }
 .services{
     display: flex;
@@ -177,9 +175,8 @@ h3{
     /* background-color: rgba(185, 181, 181, 0.274); */
     background: url(img/client.jpg)no-repeat fixed center/cover;
     height: 600px;
-    top: 0;
-    left: 0;
-    /* overflow: scroll; */
+
+    overflow: hidden;
 }
 .clients h3{
     font-size: 3.0rem;
