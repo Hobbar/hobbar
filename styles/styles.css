@@ -177,6 +177,8 @@ h3{
     /* background-color: rgba(185, 181, 181, 0.274); */
     background: url(img/client.jpg)no-repeat fixed center/cover;
     height: 600px;
+    top: 0;
+    left: 0;
     /* overflow: scroll; */
 }
 .clients h3{
