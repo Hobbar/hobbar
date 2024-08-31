@@ -8,12 +8,12 @@
 /* navigation bar */
 #navbar::before{
     content: "";
-    background-color: rgb(167, 209, 118);
+    background-color: rgb(223, 238, 207);
     position: absolute;
     height: 100%; width: 100%;
     top: 0; left: 0;
     z-index: -1; 
-    opacity: .59;
+    /* opacity: .59; */
 }
 
 #navbar{
@@ -52,23 +52,22 @@ ul li{
 }
 ul li a{
     display: block;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 53, 53);
     padding: 3px 22px;
     border-radius: 20px;
 }
 ul li a:hover{
-    color: rgb(253, 72, 0);
+    color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.055);
 }
 
 /* Section home */
 #home::before{
     content: "";
-    position:absolute;
-    background: url(img/bg.jpg) no-repeat fixed center/cover; 
-    
     height: 100%; 
     width: 100%;
+    position: absolute;
+    background: no-repeat fixed center/cover url("img/bg.jpg"); 
     z-index: -1;
     opacity: .75;
 }
@@ -246,7 +245,7 @@ form{
 input{
     width: 100%;
     padding: 10px;
-    border: white;
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
     font-size: 1.1rem;
 }
@@ -254,7 +253,7 @@ input{
 #contact-box textarea{
     width: 100%;
     padding: .5rem;
-    border: white;
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
     font-size: 1.1rem;
 } 
