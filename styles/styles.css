@@ -67,7 +67,7 @@ ul li a:hover{
     height: 100%; 
     width: 100%;
     position: absolute;
-    background: no-repeat fixed center/cover url("img/bg.jpg"); 
+    background: no-repeat fixed center/cover url("../img/bg.jpg"); 
     z-index: -1;
     opacity: .75;
 }
@@ -112,7 +112,7 @@ ul li a:hover{
 /* Services  */
 #service-section::before{
     /* background-color: rgba(238, 228, 228, 0.342); */
-    background: url(img/service.jpg)no-repeat fixed center/cover;
+    background: url(../img/service.jpg)no-repeat fixed center/cover;
     position: absolute;
     content: "";
     width: 100%;
@@ -172,7 +172,7 @@ h3{
 
 #clients{
     /* background-color: rgba(185, 181, 181, 0.274); */
-    background: url(img/client.jpg)no-repeat fixed center/cover;
+    background: url(../img/client.jpg)no-repeat fixed center/cover;
     height: 600px;
 
     overflow: hidden;
@@ -215,7 +215,7 @@ h3{
 
 /* section Contact  */
 #contact{
-    background: url(img/contact.jpg) no-repeat fixed center/cover; 
+    background: url(../img/contact.jpg) no-repeat fixed center/cover; 
     width: 100%;
     height: auto;
 }
@@ -245,7 +245,8 @@ form{
 input{
     width: 100%;
     padding: 10px;
-    border: 2px solid rgb(0, 0, 0);
+    /* border: 2px solid rgb(0, 0, 0); */
+    border: rgb(0, 0, 0);
     border-radius: 10px;
     font-size: 1.1rem;
 }
@@ -253,7 +254,7 @@ input{
 #contact-box textarea{
     width: 100%;
     padding: .5rem;
-    border: 2px solid rgb(0, 0, 0);
+    border: rgb(0, 0, 0);
     border-radius: 10px;
     font-size: 1.1rem;
 } 
